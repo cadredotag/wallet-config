@@ -1,0 +1,37 @@
+{
+  "schema": 1,
+  "seq": 1,
+  "not_before": 1794194354,
+  "expires": 1799378654,
+  "payload": {
+    "networks": {
+      "devnet": {
+        "links": {
+          "explorerCadreTx": "https://explorer.devnet.cadre.ag/tx/{id}",
+          "explorerSolanaTx": "https://explorer.solana.com/tx/{id}?cluster=devnet"
+        }
+      }
+    },
+    "flags": {
+      "swapBuy": true,
+      "swapSell": true
+    },
+    "notices": [
+      {
+        "id": "devnet-welcome",
+        "level": "info",
+        "text": "Cadre Wallet runs on the Cadre public devnet. Devnet balances have no value.",
+        "networks": [
+          "devnet"
+        ]
+      }
+    ],
+    "cadreSites": [
+      "https://devnet.cadre.ag"
+    ]
+  },
+  "signature": {
+    "key_id": "cadre-wallet-config-1",
+    "ed25519": "O6tcpVVH6Es6pt/aVl6usj0wkXwXjW6JRWGYbsDJPshff8WebbgFSjcCVRkqfP0+B6FAFmSHpmStKelsIxHGAQ=="
+  }
+}
